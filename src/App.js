@@ -5,7 +5,7 @@ import Header, { Landing_Page , CreateAcc, Product_Navbar, Product_All, SlideSho
 
 function App()
 {
-    return (<BrowserRouter>
+    return (<BrowserRouter basename="/">
         <Routes>
 
         <Route path='/' element={<div className="headerContainer"><Header/><Landing_Page/></div>}/>
